@@ -96,6 +96,10 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #ffffff;
 }
+.contact-details{
+    color: #ffffff;
+    text-decoration: none;
+}
 .tab-tittles{
     display: flex;
     margin: 20px 0 40px;
@@ -363,8 +367,9 @@ nav .fa-solid{
     .about-col-1{
         margin-bottom: 25px;
     }
-    .about-col-2{
+    .about-col-2 {
         font-size: 14px;
+        text-align: justify;
     }
     .tab-links{
         font-size: 16px;
