@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
 
@@ -67,7 +67,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
 }
-.header-text h1 span{
+.header-text p span{
     color: #c77100;
 }
 /* -------about--------- */
@@ -144,6 +144,7 @@ nav ul li a:hover::after{
 }
 .tab-contents{
     display: none;
+flex-basis: 100%;
 }
 .tab-contents.active-tab{
     display: block;
