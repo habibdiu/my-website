@@ -28,7 +28,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 140px;
+    width: 160px;
 }
 nav ul li{
     display: inline-block;
@@ -328,31 +328,50 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px){
-    #header{
+    #header {
         background-image: url(images/phone_background.jpg);
+        height: 480px;
+        padding: 20px 0;
     }
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+
+    .header-text {
+        margin-top: 10%; /* Reduce vertical spacing */
+        font-size: 13px;
     }
-    .header-text h1{
-        font-size: 28px;
+
+    .header-text h1 {
+        font-size: 18px; /* Smaller heading */
+        margin-bottom: 5px;
+    }
+
+    .header-text p span {
+        font-size: 13px;
+    }
+    .header-text p br {
+        display: none;
     }
     nav .fa-solid{
         display: block;
-        font-size: 22px;
+        font-size: 20px;
     }
     nav ul{
         background: #8f5100;
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
+        width: 150px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.4s;
+        transition: right 0.2s;
     }
     nav ul li{
         display: block;
@@ -370,15 +389,12 @@ nav .fa-solid{
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
-    .about-col-1{
-        margin-bottom: 25px;
-    }
     .about-col-2 {
         font-size: 14px;
         text-align: justify;
     }
     .tab-links{
-        font-size: 16px;
+        font-size: 10px;
         margin-right: 20px;
     }
     .contact-left, .contact-right{
