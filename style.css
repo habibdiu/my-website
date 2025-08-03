@@ -356,8 +356,14 @@ nav .fa-solid{
     }
 
     .header-text p span {
-        font-size: 13px;
+    font-size: 14px;
+    display: block;
+    max-width: 150px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.6;
     }
+
     .header-text p br {
         display: none;
     }
